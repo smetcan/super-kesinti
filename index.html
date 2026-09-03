@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Turkcell Superonline Kesinti Takip Paneli | Abone No: 60541906</title>
-  <meta name="description" content="Turkcell Superonline fiber internet ve TV+ hizmetinde 31 Ağustos'tan beri devam eden kesinti, yanıltıcı sanal asistan bilgilendirmesi ve iletişim süreci takip paneli.">
+  <title>Turkcell Superonline Kesinti & Fesih Takip Paneli | Abone No: 60541906</title>
+  <meta name="description" content="77,5 saati aşan kesinti, yazılı ONT arıza itirafı ve 6502 sayılı Kanun kapsamında haklı fesih süreci takip paneli.">
   
   <!-- Open Graph Meta Etiketleri -->
-  <meta property="og:title" content="Turkcell Superonline Kesinti Takip Paneli | Abone No: 60541906">
-  <meta property="og:description" content="48 saati aşan internet ve TV+ kesintisi, Sanal Asistan'ın gerçekleşmeyen 5 saatlik taahhüdü ve sıfır bilgilendirme günlüğü.">
+  <meta property="og:title" content="Turkcell Superonline Kesinti & Fesih Takip Paneli | Abone No: 60541906">
+  <meta property="og:description" content="77 saat 30 dakika süren internet kesintisi, yazılı ONT arıza itirafı ve ayıplı hizmete rağmen yansıtılacağı bildirilen haksız cayma bedeli günlüğü.">
   <meta property="og:type" content="website">
 
   <!-- Tailwind CSS CDN -->
@@ -46,11 +46,11 @@
 
   <!-- ==========================================
        YÖNETİCİ KONFİGÜRASYONU
-       Sorun çözüldüğünde IS_RESOLVED = true yapıp yayına almanız yeterlidir.
+       Abonelik 80. saatte ayıplı hizmet nedeniyle haklı feshedilmiş, sayaç fesih anında dondurulmuştur.
        ========================================== -->
   <script>
-    const IS_RESOLVED = false; // true yapıldığında sayaç durur ve yeşil 'Çözüldü' durumu devreye girer.
-    const RESOLVED_DATE_ISO = "2026-09-03T10:00:00+03:00"; // Sorun çözüldüğünde girilecek tarih
+    const IS_TERMINATED = true; // Sözleşme haklı nedenle feshedildi; sayaç donduruldu.
+    const TERMINATION_DATE_ISO = "2026-09-03T15:38:00+03:00"; // Fesih SMS saati (77 saat 30 dakika)
   </script>
 
   <!-- Üst Bilgilendirme / Başlık: Turkcell Kurumsal Lacivert Bar -->
@@ -58,92 +58,91 @@
     <div class="max-w-5xl mx-auto px-4 py-3.5 flex flex-wrap justify-between items-center gap-4">
       <div class="flex items-center gap-3">
         <span class="relative flex h-3.5 w-3.5">
-          <span id="headerPing" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-          <span id="headerDot" class="relative inline-flex rounded-full h-3.5 w-3.5 bg-rose-500"></span>
+          <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-rose-500"></span>
         </span>
         <div>
           <h1 class="font-bold text-lg text-white flex items-center gap-2">
-            <span>Turkcell Superonline Kesinti Takip Paneli</span>
-            <span class="text-[11px] font-black px-2 py-0.5 rounded bg-[#FFC72C] text-[#001a3a] shadow-sm uppercase tracking-wider">Tüketici Günlüğü</span>
+            <span>Turkcell Superonline Kesinti & Fesih Takip Paneli</span>
+            <span class="text-[11px] font-black px-2 py-0.5 rounded bg-rose-500 text-white shadow-sm uppercase tracking-wider">Haklı Fesih Edildi</span>
           </h1>
           <p class="text-xs text-slate-300">Abone No: <span class="text-[#FFC72C] font-mono font-bold">60541906</span> | Pendik / İSTANBUL</p>
         </div>
       </div>
       
-      <div id="statusBadge" class="px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase bg-rose-500/20 text-rose-200 border border-rose-400/40 flex items-center gap-2 shadow-sm">
-        <span class="h-2 w-2 rounded-full bg-rose-500 animate-pulse-fast"></span>
-        Hizmet Kesintisi Devam Ediyor
+      <div id="statusBadge" class="px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase bg-rose-600/30 text-rose-100 border border-rose-400/50 flex items-center gap-2 shadow-sm">
+        <span class="h-2 w-2 rounded-full bg-rose-400"></span>
+        Sözleşme Feshedildi (77,5 Saatlik Kesinti Sonucu)
       </div>
     </div>
   </header>
 
   <main class="max-w-5xl mx-auto px-4 py-8 space-y-8">
 
-    <!-- UYARI BANNERI: 48 Saat ve Sözleşme İhlali -->
+    <!-- UYARI BANNERI: 80 Saatlik Ayıplı Hizmet Feshi ve Haksız Cayma Bedeli -->
     <div id="legalAlert" class="bg-rose-50 border-l-4 border-rose-600 p-5 rounded-r-xl shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-y border-r border-rose-200/70">
-      <div class="space-y-1">
+      <div class="space-y-1.5">
         <div class="flex items-center gap-2 text-rose-700 font-extrabold text-sm tracking-wide uppercase">
           <svg class="w-5 h-5 text-rose-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
           </svg>
-          Sözleşmesel ve Yasal 48 Saatlik Azami Arıza Süresi Aşılmıştır
+          Sözleşme 6502 Sayılı Kanun Kapsamında Haklı Nedenle Feshedilmiştir
         </div>
         <p class="text-xs text-slate-700 leading-relaxed">
-          Sözleşme <strong class="text-[#001a3a]">Madde 4.19</strong> ve <strong class="text-[#001a3a]">6502 Sayılı TKHK Madde 13-15</strong> uyarınca; 48 saati aşan kesintilerde abonenin bedel iadesi ve hiçbir cezai şart ödemeksizin sözleşmeyi <strong class="text-rose-700 font-bold">haklı fesih</strong> hakkı doğmuştur.
+          77 saati aşan kesinti boyunca saha ekibi yönlendirilmemiş; Superonline yazılı olarak <strong class="text-rose-900">"adresteki ONT cihazlarından kaynaklanan genel arıza"</strong> olduğunu ikrar etmiştir. Tarafımdan sözleşme tek taraflı feshedilmiş, ancak ayıplı hizmete rağmen gelen SMS ile faturama <strong class="text-rose-700 font-bold">haksız cayma bedeli</strong> yansıtılacağı bildirilmiştir. Fatura kesildiği anda resmi itiraz ile BTK ve Tüketici Hakem Heyeti süreci başlatılacaktır.
         </p>
       </div>
       <div class="shrink-0">
         <span class="inline-flex items-center px-3 py-1.5 rounded-lg bg-rose-600 text-white text-xs font-mono font-bold shadow-sm">
-          AYIPLI HİZMET İHLALİ
+          HAKLI FESİH GERÇEKLEŞTİ
         </span>
       </div>
     </div>
 
-    <!-- CANLI SAYAÇ KARTI (İKİLİ EŞZAMANLI GÖSTERİM) -->
+    <!-- CANLI SAYAÇ KARTI (İKİLİ EŞZAMANLI GÖSTERİM - FESİH ANINDA DONDURULDU) -->
     <section class="space-y-4">
       <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
         <div>
           <span class="text-xs font-bold uppercase tracking-wider text-[#001a3a] block mb-0.5 flex items-center gap-1.5">
             <span class="h-2 w-2 rounded-full bg-[#FFC72C]"></span>
-            Kesinti Süre Analizi
+            Kesinti Süre Analizi & Nihai Kayıt
           </span>
-          <h2 class="text-2xl font-black text-[#001a3a]">Turkcell Superonline İnternet & TV+ Canlı Sayaçları</h2>
+          <h2 class="text-2xl font-black text-[#001a3a]">Turkcell Superonline İnternet & TV+ Kesinti Süreleri</h2>
         </div>
-        <div class="text-xs text-slate-500 font-medium">
-          İki veri kaynağı da eşzamanlı olarak saniye bazında saymaktadır.
+        <div class="text-xs text-rose-600 font-bold bg-rose-50 border border-rose-200 px-3 py-1 rounded-lg">
+          🔒 Sayaçlar 15:38 Fesih SMS'i Anında (77. Saatte) Dondurulmuştur
         </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
-        <!-- KART 1: SANAL ASİSTAN TEYİTLİ FİİLİ KESİNTİ (VURUCU / ANA SAYAÇ) -->
+        <!-- KART 1: SANAL ASİSTAN TEYİTLİ FİİLİ KESİNTİ (ANA SAYAÇ) -->
         <div class="bg-white border-2 border-rose-500 rounded-2xl p-6 shadow-lg relative overflow-hidden flex flex-col justify-between">
           <div class="absolute -right-8 -top-8 w-32 h-32 bg-rose-100/60 rounded-full blur-xl pointer-events-none"></div>
 
           <div>
             <div class="flex items-center justify-between gap-2 mb-3">
               <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-rose-50 text-rose-700 border border-rose-200 text-[11px] font-bold uppercase tracking-wide">
-                <span class="h-2 w-2 rounded-full bg-rose-500 animate-pulse"></span>
-                Fiili Kesinti & Sistem Teyidi
+                <span class="h-2 w-2 rounded-full bg-rose-500"></span>
+                Fiili Kesinti & Toplam Bekleyiş
               </span>
-              <span id="badgeActual48" class="text-[10px] font-mono px-2 py-0.5 rounded bg-rose-600 text-white font-bold uppercase shadow-sm">
-                48h+ YASAL SINIR AŞILDI
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-rose-600 text-white font-bold uppercase shadow-sm">
+                77 SAAT 30 DK SONUNDA FESİH
               </span>
             </div>
 
             <h3 class="text-lg font-extrabold text-[#001a3a]">Sanal Asistan Görüşmesi Referanslı</h3>
             <p class="text-xs text-slate-600 mt-1">
-              Başlangıç: <span class="text-[#001a3a] font-mono font-bold bg-[#FFC72C]/20 px-1.5 py-0.5 rounded">31 Ağustos 2026, 10:08</span> (Sanal Asistan'ın <em>"5 saatte çözülecek"</em> taahhüdü)
+              Başlangıç: <span class="text-[#001a3a] font-mono font-bold bg-[#FFC72C]/20 px-1.5 py-0.5 rounded">31 Ağustos 2026, 10:08</span> | Fesih: <span class="text-rose-700 font-mono font-bold bg-rose-100 px-1.5 py-0.5 rounded">3 Eylül 2026, 15:38</span>
             </p>
 
             <!-- 3 Kolonlu Sayaç Rakamları -->
             <div class="grid grid-cols-3 gap-3 my-6">
               <div class="bg-rose-50/50 border border-rose-300 rounded-xl p-3.5 text-center shadow-sm">
-                <div id="actualHours" class="text-4xl sm:text-5xl font-black font-mono text-rose-600 tracking-tight">00</div>
+                <div id="actualHours" class="text-4xl sm:text-5xl font-black font-mono text-rose-600 tracking-tight">77</div>
                 <div class="text-[10px] uppercase tracking-widest text-rose-800 font-extrabold mt-1">SAAT</div>
               </div>
               <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-center flex flex-col justify-center shadow-sm">
-                <div id="actualMinutes" class="text-4xl sm:text-5xl font-black font-mono text-[#001a3a] tracking-tight">00</div>
+                <div id="actualMinutes" class="text-4xl sm:text-5xl font-black font-mono text-[#001a3a] tracking-tight">30</div>
                 <div class="text-[10px] uppercase tracking-widest text-slate-500 font-bold mt-1">DAKİKA</div>
               </div>
               <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-center flex flex-col justify-center shadow-sm">
@@ -154,7 +153,7 @@
           </div>
 
           <div class="text-[11px] text-slate-600 border-t border-slate-100 pt-3 flex items-center justify-between font-medium">
-            <span>⚠️ Tüketiciyi yanıltan süre taahhüdüyle geçen toplam kayıp süre.</span>
+            <span>⚠️ 77 saat 30 dakika boyunca tek bir saha personeli kapıyı çalmamıştır.</span>
           </div>
         </div>
 
@@ -164,26 +163,26 @@
             <div class="flex items-center justify-between gap-2 mb-3">
               <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-300 text-[11px] font-bold uppercase tracking-wide">
                 <span class="h-2 w-2 rounded-full bg-slate-500"></span>
-                Resmi Şikayet Kaydı
+                Resmi Şikayet Kaydı Süresi
               </span>
-              <span id="badgeOfficial48" class="hidden text-[10px] font-mono px-2 py-0.5 rounded bg-rose-600 text-white font-bold uppercase shadow-sm">
-                48h+ AŞILDI
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-rose-600 text-white font-bold uppercase shadow-sm">
+                51h+ YASAL SINIR AŞILDI
               </span>
             </div>
 
             <h3 class="text-lg font-extrabold text-[#001a3a]">X Bildirimi Üzerine Açılan Kayıt</h3>
             <p class="text-xs text-slate-600 mt-1">
-              Başlangıç: <span class="text-[#001a3a] font-mono font-bold bg-slate-100 px-1.5 py-0.5 rounded">1 Eylül 2026, 12:05</span> (Arama yapılmaksızın gelen SMS saati)
+              Başlangıç: <span class="text-[#001a3a] font-mono font-bold bg-slate-100 px-1.5 py-0.5 rounded">1 Eylül 2026, 12:05</span> | Fesih: <span class="text-slate-700 font-mono font-bold bg-slate-100 px-1.5 py-0.5 rounded">3 Eylül 2026, 15:38</span>
             </p>
 
             <!-- 3 Kolonlu Sayaç Rakamları -->
             <div class="grid grid-cols-3 gap-3 my-6">
               <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-center shadow-sm">
-                <div id="officialHours" class="text-4xl sm:text-5xl font-black font-mono text-slate-800 tracking-tight">00</div>
+                <div id="officialHours" class="text-4xl sm:text-5xl font-black font-mono text-slate-800 tracking-tight">51</div>
                 <div class="text-[10px] uppercase tracking-widest text-slate-500 font-extrabold mt-1">SAAT</div>
               </div>
               <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-center flex flex-col justify-center shadow-sm">
-                <div id="officialMinutes" class="text-4xl sm:text-5xl font-black font-mono text-slate-700 tracking-tight">00</div>
+                <div id="officialMinutes" class="text-4xl sm:text-5xl font-black font-mono text-slate-700 tracking-tight">33</div>
                 <div class="text-[10px] uppercase tracking-widest text-slate-500 font-bold mt-1">DAKİKA</div>
               </div>
               <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 text-center flex flex-col justify-center shadow-sm">
@@ -194,14 +193,14 @@
           </div>
 
           <div class="text-[11px] text-slate-600 border-t border-slate-100 pt-3 flex items-center justify-between font-medium">
-            <span>ℹ️ Şirketin sisteminde görünen asgari kesinti süresi.</span>
+            <span>ℹ️ Şirket sistemindeki resmi kayıtta dahi 48 saatlik azami süre (51 saat 33 dk) çiğnenmiştir.</span>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- İYİ NİYET BEYANI VE SİTENİN KALDIRILMA TAAHHÜDÜ (TMK MADDE 2) -->
+    <!-- İYİ NİYET VE HAK ARAMA BİLDİRİMİ (TMK MADDE 2) -->
     <section class="bg-amber-50/70 border-2 border-[#FFC72C] rounded-2xl p-6 shadow-sm">
       <div class="flex items-start gap-4">
         <div class="p-3 bg-[#FFC72C] rounded-xl text-[#001a3a] shrink-0 shadow-sm">
@@ -211,11 +210,11 @@
         </div>
         <div class="space-y-1.5">
           <h3 class="text-base font-extrabold text-[#001a3a] flex items-center gap-2">
-            İyi Niyet Beyanı ve Sayfanın Yayından Kaldırılma Bildirimi
+            Hukuki Durum ve Sayfanın Arşivlenmesi Bildirimi
             <span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-[#001a3a] text-[#FFC72C] font-bold">TMK Md. 2 Dürüstlük Kuralı</span>
           </h3>
           <p class="text-xs leading-relaxed text-slate-700">
-            Bu sayfa kalıcı bir ticari karalama amacı gütmemekte olup; yalnızca <strong class="text-[#001a3a]">Turkcell Superonline</strong> tarafından sözleşmeye uygun şekilde ayıpsız internet ve TV+ hizmeti sunulduğunda, şeffaf teknik bilgilendirme yapıldığında ve kesinti süresince yaşanan mağduriyet telafi edildiğinde <strong class="text-rose-700 font-bold">derhal ve tamamen yayından kaldırılarak imha edilecektir.</strong>
+            77,5 saatlik çözümsüzlük ve şirketin yazılı ONT cihazı arızası ikrarı neticesinde abonelik sözleşmesi haklı nedenle feshedilmiştir. SMS ile faturaya yansıtılacağı bildirilen yasal dayanaktan yoksun <strong class="text-rose-700 font-bold">cayma bedeli talebi iptal edilene</strong> ve fatura sonrası BTK / Tüketici Hakem Heyeti süreçleri sonuçlanana kadar bu sayfa bağımsız bir delil kaydı olarak yayında kalacak; uyuşmazlık tamamen kapandığında yayından kaldırılacaktır.
           </p>
         </div>
       </div>
@@ -224,30 +223,30 @@
     <!-- ÖZET GÖSTERGELER -->
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
       <div class="bg-white border border-slate-200 p-4 rounded-xl space-y-1 shadow-sm">
-        <div class="text-[11px] font-bold text-[#001a3a] uppercase tracking-wider">Hizmet Türü</div>
-        <div class="text-sm font-extrabold text-[#001a3a]">Fiber İnternet + TV+</div>
-        <div class="text-[11px] text-slate-500">Tek altyapı, çifte kesinti</div>
+        <div class="text-[11px] font-bold text-[#001a3a] uppercase tracking-wider">Abonelik Durumu</div>
+        <div class="text-sm font-extrabold text-rose-700">Haklı Fesih Edildi</div>
+        <div class="text-[11px] text-slate-500">6502 SK m. 15 (Ayıplı Hizmet)</div>
       </div>
 
       <div class="bg-white border border-slate-200 p-4 rounded-xl space-y-1 shadow-sm">
-        <div class="text-[11px] font-bold text-rose-600 uppercase tracking-wider">Fiziksel Hat Durumu</div>
-        <div class="text-sm font-extrabold text-rose-600 flex items-center gap-1.5">
-          <span class="h-2 w-2 rounded-full bg-rose-500 animate-pulse"></span>
-          Kırmızı Yanıp Sönen LOS
+        <div class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">Donanım Kusuru</div>
+        <div class="text-sm font-extrabold text-amber-900 flex items-center gap-1.5">
+          <span class="h-2 w-2 rounded-full bg-amber-500"></span>
+          Yazılı "ONT Arızası" İtirafı
         </div>
-        <div class="text-[11px] text-slate-500">Optik sinyal zayıf / kopuk</div>
+        <div class="text-[11px] text-slate-500">Şirket donanım kusurunu onayladı</div>
       </div>
 
       <div class="bg-white border border-slate-200 p-4 rounded-xl space-y-1 shadow-sm">
-        <div class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">Sanal Asistan Yanıltması</div>
-        <div class="text-sm font-extrabold text-amber-900">"10:08'de 5 Saat Taahhüdü"</div>
-        <div class="text-[11px] text-slate-500">Taahhüt tutulmadı, kayıt gecikti</div>
+        <div class="text-[11px] font-bold text-rose-600 uppercase tracking-wider">Toplam Kesinti</div>
+        <div class="text-sm font-extrabold text-rose-700">77,5 Saat / 0 Saha Ekibi</div>
+        <div class="text-[11px] text-slate-500">Sözleşmesel 48h aşımı</div>
       </div>
 
       <div class="bg-white border border-slate-200 p-4 rounded-xl space-y-1 shadow-sm">
-        <div class="text-[11px] font-bold text-rose-600 uppercase tracking-wider">İletişim & Saha Müdahalesi</div>
-        <div class="text-sm font-extrabold text-rose-700">Sıfır Arama & Sıfır ETR</div>
-        <div class="text-[11px] text-slate-500">Yalnızca şablon bot mesajları</div>
+        <div class="text-[11px] font-bold text-[#001a3a] uppercase tracking-wider">Hukuki Süreç</div>
+        <div class="text-sm font-extrabold text-[#001a3a]">Fatura Bekleniyor (İtiraz Hazır)</div>
+        <div class="text-[11px] text-slate-500">SMS uyarısına karşı hazırlık yapıldı</div>
       </div>
     </div>
 
@@ -256,7 +255,7 @@
       <div class="flex items-center justify-between pb-4 border-b border-slate-200">
         <div>
           <h3 class="text-xl font-black text-[#001a3a]">Süreç ve İletişim Günlüğü</h3>
-          <p class="text-xs text-slate-500">Yaşanan kesintinin, verilen yanlış taahhütlerin ve kurumsal ilgisizliğin kronolojik akışı</p>
+          <p class="text-xs text-slate-500">Yaşanan kesintinin, yanlış taahhütlerin, ONT itirafının ve haklı fesih sürecinin kronolojik akışı</p>
         </div>
         <span class="text-xs px-2.5 py-1 rounded bg-slate-100 text-[#001a3a] border border-slate-200 font-mono font-bold">Doğrulanabilir Kayıtlar</span>
       </div>
@@ -280,7 +279,7 @@
 
         <!-- Adım 2: Sosyal Medya Bildirimi ve Otomatik Kayıt -->
         <div class="relative group">
-          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-rose-500 border-4 border-white shadow-sm"></div>
+          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-slate-400 border-4 border-white shadow-sm"></div>
           <div class="space-y-1">
             <div class="flex items-center gap-2">
               <span class="text-xs font-mono font-extrabold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">1 Eylül 2026 - 12:05</span>
@@ -301,9 +300,9 @@
               <span class="text-xs font-mono font-extrabold text-slate-700 bg-slate-100 px-2 py-0.5 rounded">1 Eylül 2026 - Akşam</span>
               <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-300">Saha Eksiği</span>
             </div>
-            <h4 class="text-sm font-extrabold text-[#001a3a]">Komşuların Bağlantısı Geldi, Dairemizde Kırmızı LOS Sürüyor</h4>
+            <h4 class="text-sm font-extrabold text-[#001a3a]">Komşuların Bağlantısı Geldi, Dairemde Kırmızı LOS Sürdü</h4>
             <p class="text-xs text-slate-600 leading-relaxed">
-              Bulunulan sitede genel arıza bazı komşular için akşam saatlerinde giderildi; ancak dairemiz dahil bazı abonelerde kesinti devam etti. Dairedeki fiber kutusunda (ONT) <strong>LOS ışığı kırmızı yanıp sönmektedir</strong> (yetersiz sinyal / port arızası). Saha ekibi bina kutusundaki portları tam kontrol etmeden bölgeden ayrılmıştır.
+              Bulunduğum sitede genel arıza bazı komşular için akşam saatlerinde giderildi; ancak dairem dahil bazı abonelerde kesinti devam etti. Dairemdeki fiber kutusunda (ONT) <strong>LOS ışığı kırmızı yanıp sönmektedir</strong> (yetersiz sinyal / port arızası). Saha ekibi bina kutusundaki portları tam kontrol etmeden bölgeden ayrılmıştır.
             </p>
           </div>
         </div>
@@ -323,17 +322,47 @@
           </div>
         </div>
 
-        <!-- Adım 5: 48 Saat Aşımı ve Hukuki Eşik -->
+        <!-- Adım 5: Yazılı Açıklama Talebi ve Şirketin "ONT Arızası" İtirafı -->
         <div class="relative group">
-          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-rose-600 border-4 border-white animate-ping"></div>
+          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-amber-500 border-4 border-white shadow-sm"></div>
           <div class="space-y-1">
             <div class="flex items-center gap-2">
-              <span class="text-xs font-mono font-extrabold text-rose-700 bg-rose-100 px-2 py-0.5 rounded">Şu Anki Durum</span>
-              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-rose-600 text-white">48+ Saat Aşımı</span>
+              <span class="text-xs font-mono font-extrabold text-amber-900 bg-amber-100 px-2 py-0.5 rounded">3 Eylül 2026 - Yazılı Açıklama</span>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-200 text-amber-900">Şirket Kusur İtirafı</span>
             </div>
-            <h4 class="text-sm font-extrabold text-[#001a3a]">Sıfır Bilgilendirme ve Hukuki Başvuru Süreci</h4>
+            <h4 class="text-sm font-extrabold text-[#001a3a]">Superonline: "Adresinizde bulunan ONT cihazlarından kaynaklanan genel arıza..."</h4>
             <p class="text-xs text-slate-600 leading-relaxed">
-              BTK Tüketici Şikayet Sistemi kaydı oluşturulmuş, LinkedIn ve sosyal mecralarda durum paylaşılmıştır. Kesinti 48 saati aşmış olup tek bir tahmini çözüm saati (ETR) dahi paylaşılmamıştır.
+              Yazılı açıklama talebim üzerine Turkcell Superonline resmi kanalından şu yazılı yanıtı verdi: <em>"Adresinizde bulunan ONT cihazlarından kaynaklanan genel bir arıza yaşandığını görüyoruz. İlgili ekiplerimiz arızanın giderilmesi adına çalışmalarını sürdürüyor..."</em> Böylece arızanın şahsımdan değil, mülkiyeti ve yönetimi şirkete ait ONT donanımından kaynaklandığı yazılı olarak tescillenmiş oldu.
+            </p>
+          </div>
+        </div>
+
+        <!-- Adım 6: 15:38'de Haklı Fesih ve Cayma Bedeli SMS Bildirimi -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-rose-600 border-4 border-white shadow-sm"></div>
+          <div class="space-y-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono font-extrabold text-rose-700 bg-rose-100 px-2 py-0.5 rounded">3 Eylül 2026 - 15:38 (Fesih SMS Saati)</span>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-rose-600 text-white">Haklı Fesih & Cayma SMS'i</span>
+            </div>
+            <h4 class="text-sm font-extrabold text-[#001a3a]">Sözleşmeyi Feshettim — Şirket SMS ile Cayma Bedeli Çıkarılacağını Bildirdi</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              77 saat 30 dakika boyunca tek bir saha personeli gelmeyince <strong>6502 sayılı TKHK Madde 15 (Ayıplı Hizmet)</strong> uyarınca sözleşmeyi cezai şartsız feshettim. Ancak kendi donanım arızasını yazılı itiraf eden operatör, saat 15:38'de ilettiği resmi bilgilendirme SMS'inde haklı feshime rağmen faturama <strong>"cayma bedeli"</strong> yansıtılacağını bildirdi.
+            </p>
+          </div>
+        </div>
+
+        <!-- Adım 7: Güncel Durum ve Yasal Takip -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] top-0.5 h-4 w-4 rounded-full bg-[#001a3a] border-4 border-white shadow-sm"></div>
+          <div class="space-y-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono font-extrabold text-[#001a3a] bg-slate-200 px-2 py-0.5 rounded">Şu Anki Aşama</span>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-[#001a3a] text-[#FFC72C]">Fatura Bekleniyor</span>
+            </div>
+            <h4 class="text-sm font-extrabold text-[#001a3a]">Otomatik Ödeme Kapatıldı, Fatura Geldiğinde Resmi İtiraz Yapılacak</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Banka hesabımdaki otomatik ödeme talimatını iptal ettim. Şirketin yazılı ONT arıza itirafını ve arıza bildirimlerini delil olarak arşivledim. Ay sonu veya kesim tarihinde cayma bedeli faturaya yansıtıldığı an <strong>BTK Tüketici Şikayet Sistemi</strong> ve <strong>Tüketici Hakem Heyeti (TÜBİS)</strong> başvurularımı resmi olarak işleme koyacağım.
             </p>
           </div>
         </div>
@@ -354,21 +383,21 @@
         <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1 shadow-sm">
           <div class="font-extrabold text-[#001a3a]">6502 Sayılı TKHK Md. 13-15</div>
           <div class="text-slate-600 leading-relaxed">
-            Sağlayıcının taahhüt ettiği nitelikte sunulmayan hizmet ayıplı sayılır. Tüketici bedel indirimi veya cezasız sözleşmeden dönme hakkına sahiptir.
+            Hizmet sağlayıcının kusuruyla taahhüt edilen nitelikte sunulmayan hizmet ayıplıdır. Tüketici hiçbir cayma bedeli ödemeksizin sözleşmeden dönme (tek taraflı fesih) hakkına sahiptir.
+          </div>
+        </div>
+
+        <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1 shadow-sm">
+          <div class="font-extrabold text-[#001a3a]">Yargıtay Yerleşik İçtihadı</div>
+          <div class="text-slate-600 leading-relaxed">
+            Hizmet veremeyen veya kusurlu donanımını 48 saatte onaramayan sağlayıcı, haklı nedenle ayrılan aboneden indirim tutarı veya cayma cezası talep edemez; tahakkuk eden bedel hükümsüzdür.
           </div>
         </div>
 
         <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1 shadow-sm">
           <div class="font-extrabold text-[#001a3a]">6769 Sayılı SMK Md. 7/5</div>
           <div class="text-slate-600 leading-relaxed">
-            Tüketicinin yaşadığı ayıplı hizmeti ve muhatap olduğu şirketi belirtmesi meşru referans ve ifade özgürlüğü kapsamında olup marka ihlali sayılamaz.
-          </div>
-        </div>
-
-        <div class="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1 shadow-sm">
-          <div class="font-extrabold text-[#001a3a]">Sözleşme Md. 4.19 (Superonline)</div>
-          <div class="text-slate-600 leading-relaxed">
-            48 saati aşan kesintilerde hizmet sunulmayan günlerin bedeli aboneye iade edilir.
+            Tüketicinin yaşadığı ayıplı hizmeti, yazılı itirafı ve muhatap olduğu şirketi belirtmesi meşru referans ve ifade özgürlüğü kapsamında olup marka ihlali teşkil etmez.
           </div>
         </div>
       </div>
@@ -377,8 +406,8 @@
     <!-- PAYLAŞIM VE DESTEK ALANI -->
     <section class="bg-[#001a3a] text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-md">
       <div class="space-y-1 text-center sm:text-left">
-        <h4 class="text-sm font-bold text-white">Tüketici Farkındalığını Destekleyin</h4>
-        <p class="text-xs text-slate-300">Bu süreci sosyal ağlarda paylaşarak kurumsal şeffaflık talebine destek olabilirsiniz.</p>
+        <h4 class="text-sm font-bold text-white">Tüketici Hak Arama Sürecime Destek Olun</h4>
+        <p class="text-xs text-slate-300">Hem 80 saat hizmet vermeyip hem cayma bedeli kesen bu kurumsal çelişkiyi paylaşabilirsiniz.</p>
       </div>
 
       <div class="flex items-center gap-3 w-full sm:w-auto">
@@ -401,30 +430,31 @@
 
   <!-- YASAL SORUMLULUK REDDİ -->
   <footer class="border-t border-slate-200 bg-slate-50 py-6 text-center text-[11px] text-slate-500 px-4 space-y-1">
-    <p>Bu web sayfası, 60541906 numaralı abonelik kapsamında yaşanan uzun süreli Turkcell Superonline hizmet kesintisini ve resmi başvuru süreçlerini kayıt altına almak amacıyla oluşturulmuş bağımsız bir tüketici bilgilendirme ve hak arama panosudur.</p>
-    <p class="text-slate-400">Veriler resmi arıza kayıtlarına, Sanal Asistan loglarına ve sözleşme hükümlerine dayanmaktadır.</p>
+    <p>Bu web sayfası, 60541906 numaralı abonelik kapsamında yaşanan 77 saat 30 dakikalık Turkcell Superonline hizmet kesintisini, şirketin yazılı ONT arıza itirafını, haklı fesih sürecini ve SMS ile yansıtılacağı bildirilen haksız cayma bedeline karşı hak arama adımlarını kayıt altına almak amacıyla oluşturulmuş bağımsız bir tüketici bilgilendirme panosudur.</p>
+    <p class="text-slate-400">Veriler resmi yazılı yanıtlara, arıza kayıtlarına ve 6502 sayılı Tüketicinin Korunması Hakkında Kanun hükümlerine dayanmaktadır.</p>
   </footer>
 
-  <!-- JAVASCRIPT HESAPLAMA VE İKİLİ CANLI SAYAÇ MOTORU -->
+  <!-- SCRIPT MOTORU -->
   <script>
     // Zaman Başlangıçları (ISO Format - Türkiye GMT+3)
-    const ACTUAL_START   = new Date("2026-08-31T10:08:00+03:00").getTime(); // Sanal Asistan ile ilk görüşme saati
-    const OFFICIAL_START = new Date("2026-09-01T12:05:00+03:00").getTime(); // X bildirimi sonrası açılan kayıt saati
+    const ACTUAL_START      = new Date("2026-08-31T10:08:00+03:00").getTime();
+    const OFFICIAL_START    = new Date("2026-09-01T12:05:00+03:00").getTime();
+    const TERMINATION_TIME  = new Date(TERMINATION_DATE_ISO).getTime();
 
     function updateTimer() {
-      const now = IS_RESOLVED ? new Date(RESOLVED_DATE_ISO).getTime() : new Date().getTime();
+      // Fesih gerçekleştiği için sayaç fesih tarihinde kilitlenir
+      const targetTime = IS_TERMINATED ? TERMINATION_TIME : new Date().getTime();
 
-      // Cihaz yılı ile senkronizasyon emniyeti
       let actualStartMs = ACTUAL_START;
       let officialStartMs = OFFICIAL_START;
-      if (now < ACTUAL_START) {
+      if (targetTime < ACTUAL_START) {
         const deviceYear = new Date().getFullYear();
         actualStartMs = new Date(`${deviceYear}-08-31T10:08:00+03:00`).getTime();
         officialStartMs = new Date(`${deviceYear}-09-01T12:05:00+03:00`).getTime();
       }
 
-      // 1. Fiili Kesinti ve Sanal Asistan Teyidi Süresi
-      const diffActual = Math.max(0, now - actualStartMs);
+      // 1. Fiili Kesinti Süresi (77 saat 30 dk)
+      const diffActual = Math.max(0, targetTime - actualStartMs);
       const actualHours = Math.floor(diffActual / (1000 * 60 * 60));
       const actualMinutes = Math.floor((diffActual % (1000 * 60 * 60)) / (1000 * 60));
       const actualSeconds = Math.floor((diffActual % (1000 * 60)) / 1000);
@@ -437,17 +467,8 @@
       if (elActualM) elActualM.innerText = String(actualMinutes).padStart(2, '0');
       if (elActualS) elActualS.innerText = String(actualSeconds).padStart(2, '0');
 
-      const badgeActual48 = document.getElementById('badgeActual48');
-      if (badgeActual48) {
-        if (actualHours >= 48) {
-          badgeActual48.classList.remove('hidden');
-        } else {
-          badgeActual48.classList.add('hidden');
-        }
-      }
-
-      // 2. Resmi Kayıt Süresi
-      const diffOfficial = Math.max(0, now - officialStartMs);
+      // 2. Resmi Kayıt Süresi (51 saat 33 dk)
+      const diffOfficial = Math.max(0, targetTime - officialStartMs);
       const officialHours = Math.floor(diffOfficial / (1000 * 60 * 60));
       const officialMinutes = Math.floor((diffOfficial % (1000 * 60 * 60)) / (1000 * 60));
       const officialSeconds = Math.floor((diffOfficial % (1000 * 60)) / 1000);
@@ -459,44 +480,10 @@
       if (elOfficialH) elOfficialH.innerText = String(officialHours).padStart(2, '0');
       if (elOfficialM) elOfficialM.innerText = String(officialMinutes).padStart(2, '0');
       if (elOfficialS) elOfficialS.innerText = String(officialSeconds).padStart(2, '0');
-
-      const badgeOfficial48 = document.getElementById('badgeOfficial48');
-      if (badgeOfficial48) {
-        if (officialHours >= 48) {
-          badgeOfficial48.classList.remove('hidden');
-        } else {
-          badgeOfficial48.classList.add('hidden');
-        }
-      }
-    }
-
-    function applyResolvedState() {
-      if (!IS_RESOLVED) return;
-
-      document.getElementById('headerPing')?.remove();
-      const headerDot = document.getElementById('headerDot');
-      if (headerDot) headerDot.className = "relative inline-flex rounded-full h-3.5 w-3.5 bg-emerald-500";
-
-      const statusBadge = document.getElementById('statusBadge');
-      if (statusBadge) {
-        statusBadge.className = "px-3.5 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase bg-emerald-50 text-emerald-700 border border-emerald-300 flex items-center gap-2";
-        statusBadge.innerHTML = '<span class="h-2 w-2 rounded-full bg-emerald-500"></span> Sorun Çözüldü & Hizmet Sağlandı';
-      }
-
-      const legalAlert = document.getElementById('legalAlert');
-      if (legalAlert) {
-        legalAlert.className = "bg-emerald-50 border-l-4 border-emerald-500 p-5 rounded-r-xl shadow-sm flex items-center justify-between border-y border-r border-emerald-200";
-        legalAlert.innerHTML = `
-          <div class="space-y-1">
-            <div class="text-emerald-800 font-bold text-sm tracking-wide uppercase">Hizmet Yeniden Sağlanmıştır</div>
-            <p class="text-xs text-slate-700">Turkcell Superonline fiber internet ve TV+ erişimi sağlanmış olup süreç arşive alınmıştır.</p>
-          </div>
-        `;
-      }
     }
 
     function copyShareText() {
-      const text = "Turkcell Superonline'da 48 saati aşan fiber internet ve TV+ kesintisi yaşıyoruz. Sanal Asistan'ın verdiği 5 saatlik gerçekleşmeyen süre taahhüdü, sıfır bilgilendirme ve saha ekibi eksikliği nedeniyle iş sürekliliğimiz durdu. Durum paneli: " + window.location.href;
+      const text = "Turkcell Superonline'da 77,5 saat boyunca ONT arızasını çözemediler, tek bir ekip gelmedi. Sözleşmeyi haklı feshedince bir de SMS ile 'cayma bedeli' çıkaracaklarını bildirdiler! Süreç ve sayaç: " + window.location.href;
       
       const textarea = document.createElement("textarea");
       textarea.value = text;
@@ -518,7 +505,7 @@
     }
 
     function setupSocialLinks() {
-      const shareText = encodeURIComponent("Turkcell Superonline'da 48 saati aşan fiber internet ve TV+ kesintisi! Sanal Asistan'ın 5 saatlik gerçekleşmeyen taahhüdü ve sıfır bilgilendirme. Müşteri No: 60541906 @Turkcell @Turkcell_Destek");
+      const shareText = encodeURIComponent("Turkcell Superonline 77,5 saat kendi ONT arızasını çözemedi. Haklı feshe rağmen SMS ile cayma bedeli yansıtacaklarını bildirdiler! Abone: 60541906 @Turkcell @Turkcell_Destek @btkgovtr");
       const url = encodeURIComponent(window.location.href);
       const xBtn = document.getElementById('xShareBtn');
       if (xBtn) {
@@ -526,14 +513,10 @@
       }
     }
 
-    // Doğrudan ve event bazlı çift tetikleme
-    applyResolvedState();
     updateTimer();
-    setInterval(updateTimer, 1000);
     setupSocialLinks();
 
     window.addEventListener('DOMContentLoaded', () => {
-      applyResolvedState();
       updateTimer();
       setupSocialLinks();
     });
